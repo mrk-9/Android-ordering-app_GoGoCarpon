@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:background="@dimen/paymentbackground" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        >
+
+        <TextView
+            style="@style/HeaderText"
+            android:text="@string/em_update_profile"
+            android:background="@android:color/transparent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/white">
+        </TextView>
+
+        <!--  -->
+
+        <TextView
+            style="@style/DefaultTextLableControl"
+            android:text="@string/em_display_name"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtName"
+            style="@style/DefaultInputControl"
+            android:hint="@string/em_display_name" >
+        </EditText>
+
+        <!--  -->
+
+        <TextView
+            style="@style/DefaultTextLableControl"
+            android:text="@string/em_email"
+            android:textColor="@android:color/black">
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtEmail"
+            style="@style/DefaultInputControl"
+            android:hint="@string/em_email"
+            android:inputType="textEmailAddress" >
+        </EditText>
+
+        <!--  -->
+
+        <Button
+            android:id="@+id/btnEditProfile"
+            style="@style/LargeButtonControl"
+            android:background="@color/green_buy_button"
+            android:layout_width="match_parent"
+            android:text="@string/em_update_profile" >
+        </Button>
+
+        <!-- @style/HeaderText -->
+
+        <TextView
+            style="@style/HeaderText"
+            android:text="@string/em_change_password"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/white">
+        </TextView>
+
+        <!--  -->
+
+        <TextView
+            style="@style/DefaultTextLableControl"
+            android:textColor="@android:color/black"
+            android:text="@string/em_password" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtPassword"
+            style="@style/DefaultInputControl"
+            android:hint="@string/em_password"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <!--  -->
+
+        <TextView
+            style="@style/DefaultTextLableControl"
+            android:textColor="@android:color/black"
+            android:text="@string/em_comfirm_password" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/txtRePassword"
+            style="@style/DefaultInputControl"
+            android:hint="@string/em_comfirm_password"
+            android:inputType="textPassword" >
+        </EditText>
+
+        <!--  -->
+
+        <Button
+            android:id="@+id/btnChangePw"
+            style="@style/LargeButtonControl"
+            android:layout_width="match_parent"
+            android:background="@color/green_buy_button"
+            android:text="@string/em_change_password" >
+        </Button>
+    </LinearLayout>
+
+</ScrollView>

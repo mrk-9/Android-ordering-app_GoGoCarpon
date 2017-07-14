@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="2dp" >
+
+    <TextView
+        android:id="@+id/lblContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="$16 for Steamboat Buffet at Ba Shu Fish Pot in 2 Locations (Worth $31.80). Two Pax Option Available."
+        android:textSize="15sp"
+        android:textColor="#444444"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="By : ducbui"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/lblDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="Date : 2012/06/12 12:03:09"
+        android:textSize="13sp" />
+
+
+</LinearLayout>

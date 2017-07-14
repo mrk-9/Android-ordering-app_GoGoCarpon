@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lstDiscuss"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp" >
+
+        <!-- Preview: listitem=@layout/row_item_discuss -->
+    </ListView>
+
+    <Button
+        android:id="@+id/btnDiscuss"
+        style="@style/LargeButtonControl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/em_write_comment"
+        android:visibility="gone" >
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="actionbar_height">38dip</dimen>
+    <dimen name="actionbar_item_height">32dip</dimen>
+    <dimen name="actionbar_item_width">32dip</dimen>
+
+
+    <dimen name="tab_corner_radius">4dp</dimen>
+    <dimen name="tab_space_top">4dp</dimen>
+    <dimen name="tab_space">2dp</dimen>
+    <dimen name="tab_space_plus1">3dp</dimen>
+
+
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="slidingmenu_list_padding">10dp</dimen>
+    <dimen name="slidingmenu_shadow_width">15dp</dimen>
+
+    <integer name="slidingmenu_num_cols">1</integer>
+    <!-- <dimen name="backgroundapp">@drawable/bg_app</dimen> -->
+    <dimen name="backgroundapp">@android:color/transparent</dimen>
+    <!--     <dimen name="splashscreen">@drawable/splashscreen</dimen> -->
+    <dimen name="splashscreen">@drawable/em_bg_splash</dimen>
+    <dimen name="paymentbackground">@drawable/em_bg_splash_back</dimen>
+</resources>

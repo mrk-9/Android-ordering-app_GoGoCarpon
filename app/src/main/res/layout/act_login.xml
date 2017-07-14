@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:background="@drawable/login_background"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"></LinearLayout>
+
+        <EditText
+            android:id="@+id/txtUsername"
+            style="@style/DefaultInputControl"
+            android:hint="@string/em_username"
+            android:background="#ffffffff"
+            android:textColor="#ff000000">
+            
+        </EditText>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"></LinearLayout>
+
+        <EditText
+            android:id="@+id/txtPassword"
+            style="@style/DefaultInputControl"
+            android:hint="@string/em_password"
+            android:inputType="textPassword"
+            android:background="#ffffffff"
+            android:textColor="#ff121212">
+        </EditText>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"></RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/LargeButtonControl"
+            android:layout_width="match_parent"
+            android:background="#ffffffff"
+            android:text="@string/em_login"
+            android:textColor="#ff15ad6d">
+        </Button>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"></LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/btnSignup_Login">
+
+            <TextView
+                android:layout_width="257dp"
+                android:layout_height="wrap_content"
+                android:text="Not a memeber? Sign up now."
+                android:id="@+id/textView"
+                android:textColor="#ffffffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    
+</ScrollView>

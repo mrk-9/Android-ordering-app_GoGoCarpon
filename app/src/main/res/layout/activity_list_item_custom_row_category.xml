@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="0dip" >
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_height="45dp"
+        android:layout_width="40dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="4dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_launcher" />
+
+    <LinearLayout
+        
+        android:layout_height="fill_parent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/title" />
+
+        <TextView
+            android:id="@+id/itemHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/description" />
+    </LinearLayout>
+    
+    <ImageView
+        android:id="@+id/itemImageHaveIt"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="@null"
+        android:src="@drawable/star_empty" />
+
+</LinearLayout>

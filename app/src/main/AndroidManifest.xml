@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gogocarpon.gogocarpon" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" >
+    </uses-feature>
+
+    <permission
+        android:name="com.gogocarpon.gogocarpon.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.gogocarpon.gogocarpon.permission.MAPS_RECEIVE" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_map_key" />
+
+        <activity
+            android:name="._app.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--         <activity
+                    android:name="._app.TestCatMenuActivity"
+                    android:label="@string/app_name"
+                    android:screenOrientation="portrait" >
+                    <intent-filter>
+                        <action android:name="android.intent.action.MAIN" />
+
+                        <category android:name="android.intent.category.LAUNCHER" />
+                    </intent-filter>
+                </activity> -->
+
+        <activity
+            android:name="._app.HomeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.DealTabBarMainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.DealListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.FeatureDealActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.AllDealActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.UpcomingDealActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.ExpiredDealActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.LoginActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.SignupActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.SignupAgreeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.EditProfileActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.PurchaseHistoryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.DealDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.PurchaseActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.PurchaseReviewActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.PurchaseNotifyActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.MapLocationActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.DiscussActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="._app.CityListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <uses-library android:name="com.google.android.maps" />
+
+        <!--  Nhung demo -->
+        <activity
+            android:name=".DemoDealListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity
+            android:name="._app.AboutActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".map.MapViewFragmentActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <service android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalFuturePaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentConsentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.FuturePaymentInfoActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PayPalProfileSharingActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.ProfileSharingConsentActivity" />
+
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+
+    </application>
+
+</manifest>

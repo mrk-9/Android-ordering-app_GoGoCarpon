@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical" 
+    android:background="@dimen/paymentbackground"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="16dp">
+
+        <TextView
+            android:id="@+id/lblName"
+            style="@style/DefaultTextLarge"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="$35 for 4-Course Italian Meal at Covelli Italian Bistro Wine Bar in Orchard (Worth $80)" >
+        </TextView>
+
+        <TextView
+            style="@style/HeaderText"
+            android:textColor="@android:color/black"
+            android:background="@android:color/transparent"
+            android:text="@string/em_payment_schedule" >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/DefaultTextLableControl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                android:text="@string/em_payment_value" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblPaymentValue"
+                style="@style/DefaultTextLableControl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="$ 21.90" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/DefaultTextLableControl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                android:text="@string/em_total_items" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblTotalItem"
+                style="@style/DefaultTextLableControl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="1" >
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/DefaultTextLableControl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                android:text="@string/em_total" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblTotalPrice"
+                style="@style/DefaultTextLableControl"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:text="$ 233.10" >
+            </TextView>
+        </LinearLayout>
+
+        <!-- Prepay Info -->
+
+        <LinearLayout
+            android:id="@+id/viewReceiverInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/HeaderText"
+                android:text="@string/em_title_receiver_address" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblReceiverAddress"
+                style="@style/DefaultTextLableControl"
+                android:hint="@string/em_receiver_address" >
+            </TextView>
+
+            <TextView
+                style="@style/HeaderText"
+                android:text="@string/em_title_receiver_phone_number" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblReceiverPhone"
+                style="@style/DefaultTextLableControl"
+                android:hint="@string/em_receiver_phone_number" >
+            </TextView>
+        </LinearLayout>
+
+        <!-- End Prepay Info -->
+
+
+        <!-- Friend Info -->
+
+        <LinearLayout
+            android:id="@+id/viewFriendInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                style="@style/HeaderText"
+                android:text="@string/em_coupon_receiver_name" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblReceiverName"
+                style="@style/DefaultTextLableControl" >
+            </TextView>
+
+            <TextView
+                style="@style/HeaderText"
+                android:text="@string/em_coupon_receiver_email" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblReceiverEmail"
+                style="@style/DefaultTextLableControl" >
+            </TextView>
+
+            <TextView
+                style="@style/HeaderText"
+                android:text="@string/em_title_note_message" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblReceiverMsg"
+                style="@style/DefaultTextLableControl"
+                android:gravity="top|left" >
+            </TextView>
+        </LinearLayout>
+
+        <!-- End Prepay Info -->
+
+
+        <!--  -->
+
+        <LinearLayout
+            android:id="@+id/viewPaypal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:id="@+id/paypal_Button"
+                android:background="@drawable/paypal_button"
+                android:adjustViewBounds="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

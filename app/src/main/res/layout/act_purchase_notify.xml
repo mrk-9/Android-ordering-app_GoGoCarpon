@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:background="@dimen/backgroundapp"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblNotify"
+            style="@style/DefaultTextLarge"
+            android:layout_marginTop="20dp"
+            android:text="@string/notify_payment_success" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnOther"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/ok" />
+
+    </LinearLayout>
+
+</ScrollView>

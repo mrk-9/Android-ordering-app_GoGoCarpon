@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\libs\library-volley-1.00.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="15f8abc7f1414bbffca8d32b73097223d3a83847">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\library-volley-1.00-dd0e23960635841c428be2face5b05760b8fb538.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-5eb5eec9473fb0155de1194f3b3d069ab38cc8f1.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\libs\httpmime-4.0.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="326bf4147f100e8a4fdd7f1867a87e969fb10812">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\httpmime-4.0.1-a1b1fe81d7067d9ad5033a2b80a0c6e4cc537598.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-0822827cb7568cc2123c7635b6cdc87e7e21f7e5.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.astuetz\pagerslidingtabstrip\1.0.1\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-99e55835d605fcb790dacb5a85f6a4024d531c56.jar" />
+    </item>
+    <item
+        jar="I:\Users\betta_000\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.systembartint\systembartint\1.0.3\de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287\systembartint-1.0.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\systembartint-1.0.3-275e4b0ccc46f9ee079dcf00e4c6248edd38a387.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\libs\apache-mime4j-0.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="945007627e8d12275d755081a9e609c018e1210d">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\apache-mime4j-0.6-fba8727fdcce0d351c789bab9384d31a4998e949.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-bc1ae2c08176171bcca1c44e7ac4a57827bb98f8.jar" />
+    </item>
+    <item
+        jar="I:\Users\betta_000\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\library-2.4.0-4fa6f81e02491e482bd280c34533263ce543d841.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-083b5af9587000b45971d9df0c8e936606995389.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-21aed5a716e06757920dc51e6f936248eb2e9443.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-fb1ee671cc63c274d232ca3954aff3cf7148d59e.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-0daaaec30d0d9eb4e5bfea5db82e9804a62cbec4.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-e428a3a58618f1129108ddc5dc5aeb7364befea5.jar" />
+    </item>
+    <item
+        jar="E:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-783e10862c8c3255c39ce035e99d8e79f6798efc.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-fa45415f16675b46785c43bb46e908d7f1335caa.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-fa7606437a32da811e220291a112ff151d95d9fa.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-6ea69da33d421cbd494e70f90000dc4d71507f37.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.mikepenz.aboutlibraries\library\4.5.9\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9cf43a7984a739880c1c0b8a6959cd9cfb4b242c">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-7dd8bf025018a275f51abc6b813ba0c50d2c6ce2.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-4d9d92472c87b16d000d4c06cea1029d11ea73ed.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-7432b78716686db3ef1d47c67bc57bda2f913541.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-bc572210a8400fa229919c84f12e123db5506693.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-dc5cf98bcf54aa259d12e110b800ca36d2c6d437.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-6835bda02d53af9132478ec530962561acd25f9c.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\libs\active-record.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fbb1aa89de72229a6bfefafdaf065f48184af032">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\active-record-78b4b8105ca13bf4ba0ae145ab1af12939985450.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-ab1b6b53236127114f87bae6462983d4663b0b67.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-ea6752d6b43dcf2cb6904fd974f1591cb65f630c.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-b66d8b425303cdcc1f580c64b9eaed9814e54cba.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\libs\PayPalAndroidSDK-2.9.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="afd52bb6c8e272c0c2c38db26f908fcabce8e3c0">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-2.9.1-b196deea578d5000bf3be07be957d35c5ce4a023.jar" />
+    </item>
+    <item
+        jar="I:\Users\betta_000\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.0.0\3a10b25b6820e19102e118711afe6a66c0bae123\butterknife-6.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\butterknife-6.0.0-b2ed2d88de40cb0fe0f9caf056a278a7b43a971e.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-b5a4dc3f8553828461f8ddde52f5197a335f58f7.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\libs\library-1.0.9.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="96580178ac84594e50a0aeb5b3b03f58fcdda248">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\library-1.0.9-934a427217c119e9f8e8707b753ca215064c8d62.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="11842de6a309c447b3a3d60d73ad637a87c58994">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-c21e641c2c093da2dfdb85e83326125fbf9a6930.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-550041598dbf1f1c27712c6f3480e2b87e4d104a.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-f86bc876e7ebc47a59dd074dca13fdab6bc668b7.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\classes-29e382707c6b506ff4e7e37bd7183a02ef3d3493.jar" />
+    </item>
+    <item
+        jar="E:\android source\MINGMING-PC\GoGoCarpon\app\libs\material-ripple-0.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6c81e37a941ce3e97a8a815530d4cc239fd8833f">
+        <dex dex="E:\android source\MINGMING-PC\GoGoCarpon\app\build\intermediates\pre-dexed\debug\material-ripple-0.9.0-dc3007d438c6feb2335f596646d92a2f88d3ccf4.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/row_item_deal_bg_color"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="0dip" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblName"
+            style="@style/DefaultText"
+            android:paddingBottom="2dp"
+            android:text="$48.80 for 9-Course Japanese Wagyu Beef ."
+            android:textColor="@color/blue_light" />
+
+        <TextView
+            android:id="@+id/lblPriceDesc"
+            style="@style/DefaultText"
+            android:paddingBottom="5dp"
+            android:text="$100.00 value - 20% off - Save $20.00 "
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/lblPriceStep"
+            style="@style/DefaultText"
+            android:visibility="gone"
+            android:paddingBottom="2dp"
+            android:singleLine="false"
+            android:text="$80.00 when sales reach 10\r\n$70.00 when sales reach 30"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <!--
+         <ImageView
+        android:id="@+id/imgProduct"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/placeholder" />
+    -->
+
+    <TextView
+        android:id="@+id/lblPrice"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"       
+        android:background="@drawable/row_item_deal_style_price_bg"
+        android:text="150.00 $"
+        android:textColor="@color/white"
+        android:padding="3dp"
+		android:layout_marginRight="5dp"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
